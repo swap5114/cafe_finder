@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Café Finder</title>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+  <!-- Leaflet Routing Machine CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.css" />
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <!-- Leaflet Routing Machine JS -->
+  <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>☕ Café Finder</h1>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Search section -->
+    <section class="search-section">
+      <input 
+        type="text" 
+        id="location-input" 
+        placeholder="Enter a city or location..." 
+      />
+      <button id="search-btn">Search</button>
+      <button id="loc-btn">📍 Use My Location</button>
+    </section>
+
+    <!-- Results section -->
+    <section class="results-section">
+      <h2>Nearby Cafés</h2>
+      <div id="results"></div>
+    </section>
+
+    <!-- Map section -->
+    <section class="map-section">
+      <h2>Map View</h2>
+      <div id="map"></div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>Built with ❤️ using JavaScript + OpenStreetMap</p>
+  </footer>
+
+  <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <!-- Leaflet Routing Machine JS -->
+    <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+    <!-- Your JS -->
+    <!-- <script src="script.js"></script> -->
+
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
